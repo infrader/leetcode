@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/infrader-linux/code/leetcode/Valid_Parentheses/build",
+  "command": "/usr/bin/g++-14  -I/home/infrader-linux/code/leetcode/Valid_Parentheses/./include -g -std=c++20 -o CMakeFiles/valid.dir/src/valid.cpp.o -c /home/infrader-linux/code/leetcode/Valid_Parentheses/src/valid.cpp",
+  "file": "/home/infrader-linux/code/leetcode/Valid_Parentheses/src/valid.cpp",
+  "output": "CMakeFiles/valid.dir/src/valid.cpp.o"
+},
+{
+  "directory": "/home/infrader-linux/code/leetcode/Valid_Parentheses/build",
+  "command": "/usr/bin/g++-14  -I/home/infrader-linux/code/leetcode/Valid_Parentheses/./include -g -std=c++20 -o CMakeFiles/valid_run.dir/src/main.cpp.o -c /home/infrader-linux/code/leetcode/Valid_Parentheses/src/main.cpp",
+  "file": "/home/infrader-linux/code/leetcode/Valid_Parentheses/src/main.cpp",
+  "output": "CMakeFiles/valid_run.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/infrader-linux/code/leetcode/Valid_Parentheses/build",
+  "command": "/usr/bin/g++-14  -I/home/infrader-linux/code/leetcode/Valid_Parentheses/./include -isystem /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest/include -isystem /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest -g -std=c++20 -o CMakeFiles/valid_test.dir/src/test.cpp.o -c /home/infrader-linux/code/leetcode/Valid_Parentheses/src/test.cpp",
+  "file": "/home/infrader-linux/code/leetcode/Valid_Parentheses/src/test.cpp",
+  "output": "CMakeFiles/valid_test.dir/src/test.cpp.o"
+},
+{
+  "directory": "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++-14  -I/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googlemock/include -I/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googlemock -isystem /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest/include -isystem /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++-14  -isystem /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googlemock/include -isystem /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googlemock -isystem /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest/include -isystem /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++-14  -I/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest/include -I/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++-14  -isystem /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest/include -isystem /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

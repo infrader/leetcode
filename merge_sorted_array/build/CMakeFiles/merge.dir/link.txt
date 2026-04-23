@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmerge.a CMakeFiles/merge.dir/src/merge_solve.cpp.o
+/usr/bin/ranlib libmerge.a

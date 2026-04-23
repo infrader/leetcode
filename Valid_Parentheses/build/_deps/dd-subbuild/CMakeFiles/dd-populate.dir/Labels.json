@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/dd-subbuild/CMakeFiles/dd-populate"
+		},
+		{
+			"file" : "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/dd-subbuild/CMakeFiles/dd-populate.rule"
+		},
+		{
+			"file" : "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/dd-subbuild/CMakeFiles/dd-populate-complete.rule"
+		},
+		{
+			"file" : "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/dd-subbuild/dd-populate-prefix/src/dd-populate-stamp/dd-populate-build.rule"
+		},
+		{
+			"file" : "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/dd-subbuild/dd-populate-prefix/src/dd-populate-stamp/dd-populate-configure.rule"
+		},
+		{
+			"file" : "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/dd-subbuild/dd-populate-prefix/src/dd-populate-stamp/dd-populate-download.rule"
+		},
+		{
+			"file" : "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/dd-subbuild/dd-populate-prefix/src/dd-populate-stamp/dd-populate-install.rule"
+		},
+		{
+			"file" : "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/dd-subbuild/dd-populate-prefix/src/dd-populate-stamp/dd-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/dd-subbuild/dd-populate-prefix/src/dd-populate-stamp/dd-populate-patch.rule"
+		},
+		{
+			"file" : "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/dd-subbuild/dd-populate-prefix/src/dd-populate-stamp/dd-populate-test.rule"
+		},
+		{
+			"file" : "/home/infrader-linux/code/leetcode/Valid_Parentheses/build/_deps/dd-subbuild/dd-populate-prefix/src/dd-populate-stamp/dd-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dd-populate"
+		],
+		"name" : "dd-populate"
+	}
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvalid.a CMakeFiles/valid.dir/src/valid.cpp.o
+/usr/bin/ranlib libvalid.a

@@ -1,0 +1,1 @@
+/usr/bin/g++-14 -g CMakeFiles/run_test.dir/src/test.cpp.o -o run_test  libbinary.a lib/libgtest_main.a lib/libgtest.a 

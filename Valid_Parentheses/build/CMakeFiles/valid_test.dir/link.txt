@@ -1,0 +1,1 @@
+/usr/bin/g++-14 -g CMakeFiles/valid_test.dir/src/test.cpp.o -o valid_test  libvalid.a lib/libgtest_main.a lib/libgtest.a 

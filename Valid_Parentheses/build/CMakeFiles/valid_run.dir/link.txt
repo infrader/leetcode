@@ -1,0 +1,1 @@
+/usr/bin/g++-14 -g CMakeFiles/valid_run.dir/src/main.cpp.o -o valid_run  libvalid.a 

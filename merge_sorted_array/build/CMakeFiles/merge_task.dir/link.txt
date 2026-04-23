@@ -1,0 +1,1 @@
+/usr/bin/g++-14 -g CMakeFiles/merge_task.dir/src/main.cpp.o -o merge_task  libmerge.a 

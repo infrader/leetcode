@@ -1,0 +1,41 @@
+Start testing: Apr 23 05:25 MSK
+----------------------------------------------------------
+1/1 Testing: Binary_Test
+1/1 Test: Binary_Test
+Command: "/home/infrader-linux/code/leetcode/Bynary_Search/build/run_test"
+Directory: /home/infrader-linux/code/leetcode/Bynary_Search/build
+"Binary_Test" start time: Apr 23 05:25 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/infrader-linux/code/leetcode/Bynary_Search/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from BinarySearch
+[ RUN      ] BinarySearch.FoundInMidle
+/home/infrader-linux/code/leetcode/Bynary_Search/src/test.cpp:16: Failure
+Expected equality of these values:
+  search(nums4, 10)
+    Which is: 11
+  9
+
+[  FAILED  ] BinarySearch.FoundInMidle (0 ms)
+[ RUN      ] BinarySearch.FoundFalse
+[       OK ] BinarySearch.FoundFalse (0 ms)
+[----------] 2 tests from BinarySearch (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] BinarySearch.FoundInMidle
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Binary_Test" end time: Apr 23 05:25 MSK
+"Binary_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 23 05:25 MSK
