@@ -1,0 +1,1403 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.17.0-23-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/gcc-14 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/g++-14 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-mGk35m"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-mGk35m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-mGk35m'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d3172/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d3172.dir/build.make CMakeFiles/cmTC_d3172.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-mGk35m'
+        Building C object CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o
+        /usr/bin/gcc-14   -v -o CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc-14
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 14.3.0-12ubuntu1~24~ppa1' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.3.0 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d3172.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d3172.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDlMT1y.s
+        GNU C17 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) version 14.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 14.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/14/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 2a41748357a78fbb86e5ce27bf06eebe
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d3172.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o /tmp/ccDlMT1y.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_d3172
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3172.dir/link.txt --verbose=1
+        /usr/bin/gcc-14  -v CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o -o cmTC_d3172 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc-14
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 14.3.0-12ubuntu1~24~ppa1' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.3.0 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d3172' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d3172.'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKwDJll.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d3172 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d3172' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d3172.'
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-mGk35m'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/14/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/14/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-mGk35m']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d3172/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_d3172.dir/build.make CMakeFiles/cmTC_d3172.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-mGk35m']
+        ignore line: [Building C object CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/gcc-14   -v -o CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc-14]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 14.3.0-12ubuntu1~24~ppa1' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.3.0 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d3172.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d3172.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDlMT1y.s]
+        ignore line: [GNU C17 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) version 14.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2a41748357a78fbb86e5ce27bf06eebe]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d3172.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o /tmp/ccDlMT1y.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_d3172]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3172.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/gcc-14  -v CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o -o cmTC_d3172 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc-14]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 14.3.0-12ubuntu1~24~ppa1' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.3.0 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d3172' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d3172.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKwDJll.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d3172 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/14/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccKwDJll.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d3172] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..]
+          arg [CMakeFiles/cmTC_d3172.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14] ==> [/usr/lib/gcc/x86_64-linux-gnu/14]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/14;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Znnk3B"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Znnk3B"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Znnk3B'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_92b04/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_92b04.dir/build.make CMakeFiles/cmTC_92b04.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Znnk3B'
+        Building CXX object CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/g++-14   -v -o CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++-14
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 14.3.0-12ubuntu1~24~ppa1' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.3.0 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_92b04.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_92b04.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJGOB0d.s
+        GNU C++17 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) version 14.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 14.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/14"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/14
+         /usr/include/x86_64-linux-gnu/c++/14
+         /usr/include/c++/14/backward
+         /usr/lib/gcc/x86_64-linux-gnu/14/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 2cc0e69c371e00d8cf65f8ba56ce18ac
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_92b04.dir/'
+         as -v --64 -o CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJGOB0d.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_92b04
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92b04.dir/link.txt --verbose=1
+        /usr/bin/g++-14  -v CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_92b04 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++-14
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 14.3.0-12ubuntu1~24~ppa1' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.3.0 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_92b04' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_92b04.'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYBU5n7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_92b04 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_92b04' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_92b04.'
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Znnk3B'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/14]
+          add: [/usr/include/x86_64-linux-gnu/c++/14]
+          add: [/usr/include/c++/14/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/14] ==> [/usr/include/c++/14]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/14] ==> [/usr/include/x86_64-linux-gnu/c++/14]
+        collapse include dir [/usr/include/c++/14/backward] ==> [/usr/include/c++/14/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/14/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14;/usr/include/x86_64-linux-gnu/c++/14;/usr/include/c++/14/backward;/usr/lib/gcc/x86_64-linux-gnu/14/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Znnk3B']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_92b04/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_92b04.dir/build.make CMakeFiles/cmTC_92b04.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Znnk3B']
+        ignore line: [Building CXX object CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/g++-14   -v -o CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++-14]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 14.3.0-12ubuntu1~24~ppa1' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.3.0 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_92b04.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_92b04.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJGOB0d.s]
+        ignore line: [GNU C++17 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) version 14.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/14"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/14]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/14]
+        ignore line: [ /usr/include/c++/14/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2cc0e69c371e00d8cf65f8ba56ce18ac]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_92b04.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJGOB0d.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_92b04]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92b04.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/g++-14  -v CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_92b04 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++-14]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 14.3.0-12ubuntu1~24~ppa1' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-14-VaUuHs/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.3.0 (Ubuntu 14.3.0-12ubuntu1~24~ppa1) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_92b04' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_92b04.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYBU5n7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_92b04 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/14/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccYBU5n7.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_92b04] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..]
+          arg [CMakeFiles/cmTC_92b04.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14] ==> [/usr/lib/gcc/x86_64-linux-gnu/14]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/14;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-BJLBxe"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-BJLBxe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-BJLBxe'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cb076/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cb076.dir/build.make CMakeFiles/cmTC_cb076.dir/build
+        gmake[1]: вход в каталог «/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-BJLBxe»
+        Building C object CMakeFiles/cmTC_cb076.dir/src.c.o
+        /usr/bin/gcc-14 -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_cb076.dir/src.c.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-BJLBxe/src.c
+        Linking C executable cmTC_cb076
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb076.dir/link.txt --verbose=1
+        /usr/bin/gcc-14 CMakeFiles/cmTC_cb076.dir/src.c.o -o cmTC_cb076 
+        gmake[1]: выход из каталога «/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-BJLBxe»
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:136 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-0Igsdu"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-0Igsdu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-0Igsdu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_be342/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_be342.dir/build.make CMakeFiles/cmTC_be342.dir/build
+        gmake[1]: вход в каталог «/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-0Igsdu»
+        Building C object CMakeFiles/cmTC_be342.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc-14   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_be342.dir/CheckFunctionExists.c.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-0Igsdu/CheckFunctionExists.c
+        Linking C executable cmTC_be342
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be342.dir/link.txt --verbose=1
+        /usr/bin/gcc-14  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_be342.dir/CheckFunctionExists.c.o -o cmTC_be342  -lrt 
+        gmake[1]: выход из каталога «/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-0Igsdu»
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:194 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-i2ez0D"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-i2ez0D"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-i2ez0D'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3eaab/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3eaab.dir/build.make CMakeFiles/cmTC_3eaab.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-i2ez0D'
+        Building CXX object CMakeFiles/cmTC_3eaab.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WALL  -Wall -std=c++17   -Wall -o CMakeFiles/cmTC_3eaab.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-i2ez0D/src.cxx
+        Linking CXX executable cmTC_3eaab
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eaab.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall CMakeFiles/cmTC_3eaab.dir/src.cxx.o -o cmTC_3eaab 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-i2ez0D'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:195 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-u2dRUv"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-u2dRUv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-u2dRUv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_79400/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_79400.dir/build.make CMakeFiles/cmTC_79400.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-u2dRUv'
+        Building CXX object CMakeFiles/cmTC_79400.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -std=c++17   -Wextra -o CMakeFiles/cmTC_79400.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-u2dRUv/src.cxx
+        Linking CXX executable cmTC_79400
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79400.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra CMakeFiles/cmTC_79400.dir/src.cxx.o -o cmTC_79400 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-u2dRUv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:196 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1Spj2h"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1Spj2h"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1Spj2h'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_22ab2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_22ab2.dir/build.make CMakeFiles/cmTC_22ab2.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1Spj2h'
+        Building CXX object CMakeFiles/cmTC_22ab2.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -std=c++17   -Wshadow -o CMakeFiles/cmTC_22ab2.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1Spj2h/src.cxx
+        Linking CXX executable cmTC_22ab2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22ab2.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_22ab2.dir/src.cxx.o -o cmTC_22ab2 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1Spj2h'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:197 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Cffk24"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Cffk24"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Cffk24'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c3927/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c3927.dir/build.make CMakeFiles/cmTC_c3927.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Cffk24'
+        Building CXX object CMakeFiles/cmTC_c3927.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++17   -Wfloat-equal -o CMakeFiles/cmTC_c3927.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Cffk24/src.cxx
+        Linking CXX executable cmTC_c3927
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3927.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_c3927.dir/src.cxx.o -o cmTC_c3927 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Cffk24'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:198 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Nhd5WR"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Nhd5WR"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Nhd5WR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d6c6c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d6c6c.dir/build.make CMakeFiles/cmTC_d6c6c.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Nhd5WR'
+        Building CXX object CMakeFiles/cmTC_d6c6c.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++17   -Wold-style-cast -o CMakeFiles/cmTC_d6c6c.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Nhd5WR/src.cxx
+        Linking CXX executable cmTC_d6c6c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6c6c.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast CMakeFiles/cmTC_d6c6c.dir/src.cxx.o -o cmTC_d6c6c 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Nhd5WR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:199 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WCONVERSION"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-WwmCY6"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-WwmCY6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WCONVERSION"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-WwmCY6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a8132/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a8132.dir/build.make CMakeFiles/cmTC_a8132.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-WwmCY6'
+        Building CXX object CMakeFiles/cmTC_a8132.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WCONVERSION  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -std=c++17   -Wconversion -o CMakeFiles/cmTC_a8132.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-WwmCY6/src.cxx
+        Linking CXX executable cmTC_a8132
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8132.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion CMakeFiles/cmTC_a8132.dir/src.cxx.o -o cmTC_a8132 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-WwmCY6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:200 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFORMAT_2"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Uo3IaD"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Uo3IaD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFORMAT_2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Uo3IaD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_18a9e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_18a9e.dir/build.make CMakeFiles/cmTC_18a9e.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Uo3IaD'
+        Building CXX object CMakeFiles/cmTC_18a9e.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WFORMAT_2  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2 -std=c++17   -Wformat=2 -o CMakeFiles/cmTC_18a9e.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Uo3IaD/src.cxx
+        Linking CXX executable cmTC_18a9e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18a9e.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2 CMakeFiles/cmTC_18a9e.dir/src.cxx.o -o cmTC_18a9e 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-Uo3IaD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:202 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-kpwePz"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-kpwePz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-kpwePz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b141d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b141d.dir/build.make CMakeFiles/cmTC_b141d.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-kpwePz'
+        Building CXX object CMakeFiles/cmTC_b141d.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror -std=c++17   -Werror -o CMakeFiles/cmTC_b141d.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-kpwePz/src.cxx
+        Linking CXX executable cmTC_b141d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b141d.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror CMakeFiles/cmTC_b141d.dir/src.cxx.o -o cmTC_b141d 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-kpwePz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:208 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-D7i7ni"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-D7i7ni"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-D7i7ni'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cd253/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cd253.dir/build.make CMakeFiles/cmTC_cd253.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-D7i7ni'
+        Building CXX object CMakeFiles/cmTC_cd253.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic -std=c++17   -pedantic -o CMakeFiles/cmTC_cd253.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-D7i7ni/src.cxx
+        Linking CXX executable cmTC_cd253
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd253.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic CMakeFiles/cmTC_cd253.dir/src.cxx.o -o cmTC_cd253 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-D7i7ni'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:209 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-H7hoqg"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-H7hoqg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-H7hoqg'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_030d4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_030d4.dir/build.make CMakeFiles/cmTC_030d4.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-H7hoqg'
+        Building CXX object CMakeFiles/cmTC_030d4.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors -std=c++17   -pedantic-errors -o CMakeFiles/cmTC_030d4.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-H7hoqg/src.cxx
+        Linking CXX executable cmTC_030d4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_030d4.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors CMakeFiles/cmTC_030d4.dir/src.cxx.o -o cmTC_030d4 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-H7hoqg'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:210 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-alB6xo"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-alB6xo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-alB6xo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3b1cf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3b1cf.dir/build.make CMakeFiles/cmTC_3b1cf.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-alB6xo'
+        Building CXX object CMakeFiles/cmTC_3b1cf.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++17   -Wshorten-64-to-32 -o CMakeFiles/cmTC_3b1cf.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-alB6xo/src.cxx
+        g++-14: error: unrecognized command-line option '-Wshorten-64-to-32'
+        g++-14: error: unrecognized command-line option '-Wshorten-64-to-32'
+        gmake[1]: *** [CMakeFiles/cmTC_3b1cf.dir/build.make:78: CMakeFiles/cmTC_3b1cf.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-alB6xo'
+        gmake: *** [Makefile:127: cmTC_3b1cf/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:211 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uBXybs"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uBXybs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uBXybs'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bbaed/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bbaed.dir/build.make CMakeFiles/cmTC_bbaed.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uBXybs'
+        Building CXX object CMakeFiles/cmTC_bbaed.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++17   -fstrict-aliasing -o CMakeFiles/cmTC_bbaed.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uBXybs/src.cxx
+        Linking CXX executable cmTC_bbaed
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbaed.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_bbaed.dir/src.cxx.o -o cmTC_bbaed 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uBXybs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:214 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1WboB3"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1WboB3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1WboB3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ce89a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ce89a.dir/build.make CMakeFiles/cmTC_ce89a.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1WboB3'
+        Building CXX object CMakeFiles/cmTC_ce89a.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++17   -Wno-deprecated-declarations -o CMakeFiles/cmTC_ce89a.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1WboB3/src.cxx
+        Linking CXX executable cmTC_ce89a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce89a.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_ce89a.dir/src.cxx.o -o cmTC_ce89a 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-1WboB3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:227 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-52WgCw"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-52WgCw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-52WgCw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7a7ee/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7a7ee.dir/build.make CMakeFiles/cmTC_7a7ee.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-52WgCw'
+        Building CXX object CMakeFiles/cmTC_7a7ee.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++17   -Wno-deprecated -o CMakeFiles/cmTC_7a7ee.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-52WgCw/src.cxx
+        Linking CXX executable cmTC_7a7ee
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a7ee.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_7a7ee.dir/src.cxx.o -o cmTC_7a7ee 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-52WgCw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:235 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uEzDBF"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uEzDBF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uEzDBF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ebb38/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ebb38.dir/build.make CMakeFiles/cmTC_ebb38.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uEzDBF'
+        Building CXX object CMakeFiles/cmTC_ebb38.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++17   -Wstrict-aliasing -o CMakeFiles/cmTC_ebb38.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uEzDBF/src.cxx
+        Linking CXX executable cmTC_ebb38
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebb38.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing CMakeFiles/cmTC_ebb38.dir/src.cxx.o -o cmTC_ebb38 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-uEzDBF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:239 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-jOGgfZ"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-jOGgfZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-jOGgfZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_611d0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_611d0.dir/build.make CMakeFiles/cmTC_611d0.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-jOGgfZ'
+        Building CXX object CMakeFiles/cmTC_611d0.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++17   -Wthread-safety -o CMakeFiles/cmTC_611d0.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-jOGgfZ/src.cxx
+        g++-14: error: unrecognized command-line option '-Wthread-safety'
+        g++-14: error: unrecognized command-line option '-Wthread-safety'
+        gmake[1]: *** [CMakeFiles/cmTC_611d0.dir/build.make:78: CMakeFiles/cmTC_611d0.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-jOGgfZ'
+        gmake: *** [Makefile:127: cmTC_611d0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:290 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-USSIxi"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-USSIxi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-USSIxi'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06152/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_06152.dir/build.make CMakeFiles/cmTC_06152.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-USSIxi'
+        Building CXX object CMakeFiles/cmTC_06152.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -std=c++17   --coverage -o CMakeFiles/cmTC_06152.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-USSIxi/src.cxx
+        Linking CXX executable cmTC_06152
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06152.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_06152.dir/src.cxx.o -o cmTC_06152 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-USSIxi'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:70 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:314 (cxx_feature_check)"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_STATUS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5329b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5329b.dir/build.make CMakeFiles/cmTC_5329b.dir/build
+        gmake[1]: вход в каталог «/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp»
+        Building CXX object CMakeFiles/cmTC_5329b.dir/std_regex.cpp.o
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_5329b.dir/std_regex.cpp.o -c /home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/std_regex.cpp
+        Linking CXX executable cmTC_5329b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5329b.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_5329b.dir/std_regex.cpp.o -o cmTC_5329b 
+        gmake[1]: выход из каталога «/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp»
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_STATUS"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:70 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:332 (cxx_feature_check)"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_STATUS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bb39b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bb39b.dir/build.make CMakeFiles/cmTC_bb39b.dir/build
+        gmake[1]: вход в каталог «/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp»
+        Building CXX object CMakeFiles/cmTC_bb39b.dir/steady_clock.cpp.o
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_bb39b.dir/steady_clock.cpp.o -c /home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_bb39b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb39b.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_bb39b.dir/steady_clock.cpp.o -o cmTC_bb39b 
+        gmake[1]: выход из каталога «/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp»
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_STATUS"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:70 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:336 (cxx_feature_check)"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_STATUS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b4dd5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b4dd5.dir/build.make CMakeFiles/cmTC_b4dd5.dir/build
+        gmake[1]: вход в каталог «/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp»
+        Building CXX object CMakeFiles/cmTC_b4dd5.dir/pthread_affinity.cpp.o
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_b4dd5.dir/pthread_affinity.cpp.o -c /home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/pthread_affinity.cpp
+        Linking CXX executable cmTC_b4dd5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4dd5.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_b4dd5.dir/pthread_affinity.cpp.o -o cmTC_b4dd5 
+        gmake[1]: выход из каталога «/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeTmp»
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_STATUS"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/test/CMakeLists.txt:8 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-DQAmJC"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-DQAmJC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-DQAmJC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_16664/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_16664.dir/build.make CMakeFiles/cmTC_16664.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-DQAmJC'
+        Building CXX object CMakeFiles/cmTC_16664.dir/src.cxx.o
+        /usr/bin/g++-14 -DHAVE_CXX_FLAG_WNO_UNUSED_VARIABLE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable -std=c++17   -Wno-unused-variable -o CMakeFiles/cmTC_16664.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-DQAmJC/src.cxx
+        Linking CXX executable cmTC_16664
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16664.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable CMakeFiles/cmTC_16664.dir/src.cxx.o -o cmTC_16664 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-DQAmJC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/test/CMakeLists.txt:33 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_O3_FLAG"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-gYvuef"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-gYvuef"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "BENCHMARK_HAS_O3_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-gYvuef'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9cbe7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9cbe7.dir/build.make CMakeFiles/cmTC_9cbe7.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-gYvuef'
+        Building CXX object CMakeFiles/cmTC_9cbe7.dir/src.cxx.o
+        /usr/bin/g++-14 -DBENCHMARK_HAS_O3_FLAG  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  -std=c++17   -O3 -o CMakeFiles/cmTC_9cbe7.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-gYvuef/src.cxx
+        Linking CXX executable cmTC_9cbe7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cbe7.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  CMakeFiles/cmTC_9cbe7.dir/src.cxx.o -o cmTC_9cbe7 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-gYvuef'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/test/CMakeLists.txt:148 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG"
+    directories:
+      source: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-8z2AEK"
+      binary: "/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-8z2AEK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake/Modules;/home/infrader-linux/code/leetcode/sort_colors/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-8z2AEK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f38b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3f38b.dir/build.make CMakeFiles/cmTC_3f38b.dir/build
+        gmake[1]: Entering directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-8z2AEK'
+        Building CXX object CMakeFiles/cmTC_3f38b.dir/src.cxx.o
+        /usr/bin/g++-14 -DBENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  -std=c++17   -Werror=deprecated-declarations -o CMakeFiles/cmTC_3f38b.dir/src.cxx.o -c /home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-8z2AEK/src.cxx
+        Linking CXX executable cmTC_3f38b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f38b.dir/link.txt --verbose=1
+        /usr/bin/g++-14   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  CMakeFiles/cmTC_3f38b.dir/src.cxx.o -o cmTC_3f38b 
+        gmake[1]: Leaving directory '/home/infrader-linux/code/leetcode/sort_colors/build/CMakeFiles/CMakeScratch/TryCompile-8z2AEK'
+        
+      exitCode: 0
+...

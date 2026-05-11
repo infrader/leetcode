@@ -1,0 +1,1 @@
+/usr/bin/g++-14 -g CMakeFiles/bench.dir/src/main.cpp.o -o bench  libsort_cl.a _deps/googlebenchmark-build/src/libbenchmark.a -lrt 

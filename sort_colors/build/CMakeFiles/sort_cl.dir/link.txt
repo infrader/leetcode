@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsort_cl.a CMakeFiles/sort_cl.dir/src/sort_color.cpp.o
+/usr/bin/ranlib libsort_cl.a
